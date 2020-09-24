@@ -1,0 +1,43 @@
+{
+  "name": "lightfront-assignment",
+  "version": "1.0.0",
+  "description": "Price comparison of stockx products",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive -r dotenv/config",
+    "start": "node ./Bin/www",
+    "dev": "nodemon ./Bin/www"
+  },
+  "author": "carbon-teq",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.14",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.17.1",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.6",
+    "mysql2": "^2.2.5",
+    "node-sass-middleware": "^0.11.0",
+    "ora": "^5.1.0",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.3.5",
+    "simple-command-bus": "^1.0.7",
+    "user-agents": "^1.0.559"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "faker": "^4.1.0",
+    "mocha": "^7.1.0",
+    "mock-mongoose": "^8.0.0",
+    "sinon": "^9.0.1",
+    "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": "10.19.0"
+  }
+}
